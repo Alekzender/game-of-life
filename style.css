@@ -1,0 +1,8 @@
+html, body {
+    margin: 0;
+    overflow: hidden;
+    color: rgb(68, 112, 192);
+}
+canvas {
+    outline: 1px solid black;
+}

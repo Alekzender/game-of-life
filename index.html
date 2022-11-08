@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <canvas></canvas>
+    </div>
+    <div>
+        <input type="button" id="step" value="Step">
+        <input type="button" id="start" value="Start">
+        <input type="button" disabled id="stop" value="Stop">
+        <div>
+            <div>Step delay</div>
+            <input type="range" min="10" max="1000" step="10" id="delay">
+            <span id="delayOutput"></span> ms
+        </div>
+    </div>
+    <div>Iteration: <span id="output"></span></div>
+    <script src="script.js"></script>
+</body>
+</html>
